@@ -23,8 +23,7 @@ useHead({
         { hid: "description", name: "description", content: "" },
         { name: "format-detection", content: "telephone=no" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/img/logo_clear_fsj.png" }],
-    script: [{ type: "text/javascript", src: "https://unpkg.com/phosphor-icons" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/img/logo_clear_fsj.png" }]
 });
 </script>
 <template>

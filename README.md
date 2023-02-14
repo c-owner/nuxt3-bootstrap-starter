@@ -216,4 +216,28 @@ plugins, extends, rules 옵션에 prettier 항목이 추가되고 변경되었�
 `package.json`에서 등록한 스크립트 `lint-prettier` 명령어로 코드를 일괄 정리할 수 있습니다. 스크립트 실행이 오류난다면 개인 프로젝트 세팅에 맞게 명령문을 조금만 손보면 됩니다.
 
 
+## Bootstrap 설치
+
+Terminal 실행
+
+```bash
+yarn add -D bootstrap bootstrap-vue-next sass sass-loader@10 @popperjs/core
+```
+
+`nuxt.config.ts` 에 bootstrap 모듈 추가
+
+```tsx
+   modules: [
+        'bootstrap-vue-next/nuxt'
+    ],
+
+    css:['~/node_modules/bootstrap/dist/css/bootstrap.css'],
+```
+
+
+
+
+
+
+
 
